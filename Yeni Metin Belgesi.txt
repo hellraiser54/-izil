@@ -1,0 +1,83 @@
+import cv2
+
+def convert_to_line_drawing(input_image_path, output_image_path):
+    
+   
+# Load the input image
+    image = cv2.imread(input_image_path)
+    
+    
+    image = cv2.imread(input_image_path)
+    
+   
+
+    image =
+
+   
+# Convert the image to grayscale
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    
+    
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    
+
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2
+
+    gray = cv2.cvtColor(image, cv
+
+    gray = cv2.cvtColor(image
+
+    gray = cv2.cvtColor
+
+    gray =
+
+    gray
+
+   
+# Perform edge detection using the Canny algorithm
+    edges = cv2.Canny(gray, 
+    edges = cv2.Canny(gray, 
+
+    edges = cv2.Canny
+
+    edges = cv2.C
+
+    edges = cv
+
+    edges =
+
+    edges
+
+   
+50, 150)
+    
+    
+    
+   
+# Save the line drawing
+    cv2.imwrite(output_image_path, edges)
+
+
+    cv2.imwrite(output_image_path
+
+    cv2.imwrite(output
+
+    cv2
+
+   
+# Example usage
+input_path = 'input_photo.jpg'
+output_path = 'line_drawing_output.jpg'
+
+convert_to_line_drawing(input_path, output_path)
+
+
+convert_to_line_drawing(input_path, output_path
+
+
+convert_to_line_drawing(input_path, output
+
+
+convert
